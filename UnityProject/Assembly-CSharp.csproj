@@ -45,25 +45,35 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXLightFade.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\RandomRotation.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\SpotlightAnimator.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\CubeSpawn.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolumeDepthPrePassRenderFeature.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXRotation.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolume.ShaderParams.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Forces\DemoResources\Scripts\RandomMove.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Managers\GestureRecognizer.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Managers\EventManager.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\CylinderManager.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Core\PotionController.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\FishAnimator.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\VerticalBounce.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Scripts\LiquidLevelPouringSync.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolume.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Core\UDPReceive.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\FlaskAnimator.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\CameraAnimator.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\SO\Potion.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\PortalAnimator.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Beer\DemoResources\Scripts\SpillController.cs" />
-    <Compile Include="Assets\_PROJECT\Scripts\UDPReceive.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVLiquidPass3D.cginc" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\NonCapped\Readme.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVLiquidPassSimple.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -78,6 +88,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVShadowPass.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -717,6 +728,9 @@
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
@@ -737,6 +751,9 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -777,14 +794,17 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>

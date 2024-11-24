@@ -6,8 +6,9 @@ import os
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
-import threading
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 import pickle
 from sklearn.neural_network import MLPClassifier
@@ -195,6 +196,7 @@ class GestureRecorderGUI:
                 del self.recorded_gestures[gesture_name]
                 self.save_data()
                 self.update_gesture_list()
+
 
     def extract_hand_features(self, landmarks):
         if landmarks is None:

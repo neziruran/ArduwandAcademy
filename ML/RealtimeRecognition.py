@@ -21,7 +21,7 @@ class GestureRecognizer:
         self.hands = self.mp_hands.Hands(
             static_image_mode=False,
             max_num_hands=1,
-            min_detection_confidence=0.7,
+            min_detection_confidence=0.9,
             min_tracking_confidence=0.5
         )
         self.mp_draw = mp.solutions.drawing_utils
@@ -166,23 +166,8 @@ class GestureRecognizer:
 
         return np.array(features)
 
-    def extract_hand_features_2(self, landmarks):
-        if landmarks is None:
-            return None
 
-        points = [[lm.x, lm.y, lm.z] for lm in landmarks.landmark]
-        wrist = points[0]
-        points = [[p[0] - wrist[0], p[1] - wrist[1], p[2] - wrist[2]] for p in points]
-        features = np.array(points).flatten()
-
-        for i in range(len(points)):
-            for j in range(i + 1, len(points)):
-                dist = np.linalg.norm(np.array(points[i]) - np.array(points[j]))
-                features = np.append(features, dist)
-
-        return features
-
-    def predict_gesture(self, landmarks, confidence_threshold=93):
+    def predict_gesture(self, landmarks, confidence_threshold=98):
         if self.classifier is None or landmarks is None:
             return "Unknown", 0
 
@@ -204,10 +189,17 @@ class GestureRecognizer:
         return "Unknown", 0
 
     def send_gesture_to_unity(self):
-        # Format the gesture and confidence into a string
-        gesture_data = f"{self.gesture}|{self.confidence}"
+        # Handle cases where no gesture is detected or confidence is 0
+        if not hasattr(self, 'gesture') or self.gesture == "None" or self.confidence == 0:
+            gesture_data = "Unknown|0"
+        else:
+            # Format the gesture and confidence into a string
+            gesture_data = f"{self.gesture}|{self.confidence:.1f}"
+
         # Send the data over UDP to Unity
         self.udp_client.sendto(gesture_data.encode(), (self.unity_ip, self.unity_port))
+
+
 
     def update_camera(self):
         if self.camera_active and self.classifier is not None:
@@ -233,12 +225,15 @@ class GestureRecognizer:
                     self.gesture_label.config(text=f"Detected Gesture: {gesture}")
                     self.confidence_label.config(text=f"Confidence: {confidence:.1f}%")
 
-                    # Send gesture data to Unity over UDP
-                    self.send_gesture_to_unity()
-
                 else:
+                    # No hand detected
+                    self.gesture = "None"
+                    self.confidence = 0
                     self.gesture_label.config(text="Detected Gesture: None")
                     self.confidence_label.config(text="Confidence: 0%")
+
+                # Send gesture data to Unity over UDP
+                self.send_gesture_to_unity()
 
                 # Convert frame to PhotoImage for displaying in the Tkinter GUI
                 image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
