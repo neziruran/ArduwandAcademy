@@ -14,6 +14,16 @@ public class GestureRecognizer : MonoBehaviour
     [SerializeField] private bool catchingGesture;
     private float currentFillTime = 0f; // Time passed while holding the gesture
 
+    private void OnEnable()
+    {
+        //EventManager.ONLevelCompleted += ResetBar;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.ONLevelCompleted -= ResetBar;
+    }
+
     private void Start()
     {
         if (levelManager == null)
@@ -84,6 +94,7 @@ public class GestureRecognizer : MonoBehaviour
 
     private void ResetBar()
     {
+        Debug.Log("bar resetted");   
         recognitionBar.fillAmount = 0f; // Reset the bar to empty
         currentFillTime = 0f; // Reset the timer
     }

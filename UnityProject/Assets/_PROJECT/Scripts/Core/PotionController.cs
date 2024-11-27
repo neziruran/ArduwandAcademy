@@ -6,6 +6,22 @@ public class PotionController : MonoBehaviour
 {
     public LiquidVolume liquid;
 
+
+    private void OnEnable()
+    {
+        EventManager.ONLevelCompleted += OnSetPotionLevel;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.ONLevelCompleted -= OnSetPotionLevel;
+    }
+
+    private void OnSetPotionLevel()
+    {
+        SetLevel(0);
+    }
+
     private void Start()
     {
         liquid = GetComponent<LiquidVolume>();

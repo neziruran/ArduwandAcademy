@@ -52,7 +52,7 @@ public class LevelManager : MonoBehaviour
     private void UpdateRecipePanel()
     {
         var currentLevel = GetCurrentLevel();
-        
+
         if (currentLevel.currentIngredient < currentLevel.potion.requiredIngredients.Count)
         {
             txtTargetGesture.SetText(currentLevel.potion.requiredIngredients[currentLevel.currentIngredient]);
@@ -61,13 +61,21 @@ public class LevelManager : MonoBehaviour
         {
             Debug.LogError("Current ingredient index is out of bounds.");
         }
-
+        
         txtPotionName.SetText(currentLevel.potion.name);
     }
 
     private void OnEnable()
     {
         EventManager.ONGestureCompleted += OnIngredientComplete;
+        EventManager.ONLevelCompleted += OnLevelCompleted;
+    }
+
+    private void OnLevelCompleted()
+    {
+        Debug.Log("level completed");
+        var currentlevel = GetCurrentLevel();
+        currentlevel.currentIngredient = 0;
     }
 
     private void OnDisable()
@@ -85,15 +93,23 @@ public class LevelManager : MonoBehaviour
         return levels[currentLevelIndex];
     }
 
+  
+
     private void OnIngredientComplete()
     {
         var level = GetCurrentLevel();
         if (level != null)
         {
-            if (level.potion.requiredIngredients.Count <= level.currentIngredient)
+            Debug.Log($"potion count is {level.potion.requiredIngredients.Count} ing count is {level.currentIngredient}");
+
+            if (level.potion.requiredIngredients.Count == level.currentIngredient + 1)
             {
+                currentLevelIndex++;
                 Debug.Log("Congrats Potion Completed");
                 EventManager.OnLevelCompleted();
+                txtTargetGesture.SetText(level.potion.requiredIngredients[currentLevelIndex]);
+
+                Debug.LogError("level completed");
             }
             else
             {
@@ -102,6 +118,7 @@ public class LevelManager : MonoBehaviour
             UpdateRecipePanel();
         }
     }
+    
 
     public float GetFillTime()
     {
