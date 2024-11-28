@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e04fbdd91272415e8c8a9b3d9c3b904d, type: 3}
-  m_Name: "Dummy_P\u0131otion_2"
+  m_Name: Dummy_Potion_3
   m_EditorClassIdentifier: 
   potionPrefab: {fileID: 8738394113610190521, guid: 506e65d1e5627b24794d86d5fcccfc00,
     type: 3}
   requiredIngredients:
-  - Metal
-  - Thumbs Up
+  - Point
+  - Open Hand
   - Peace

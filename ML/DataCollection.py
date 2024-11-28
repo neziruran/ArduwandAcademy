@@ -6,9 +6,8 @@ import os
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import Pipeline
+import threading
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import pickle
 from sklearn.neural_network import MLPClassifier
@@ -199,84 +198,6 @@ class GestureRecorderGUI:
 
 
     def extract_hand_features(self, landmarks):
-        if landmarks is None:
-            return None
-
-        # Extract raw points
-        points = [[lm.x, lm.y, lm.z] for lm in landmarks.landmark]
-
-        # Get the wrist point as origin
-        wrist = points[0]
-
-        # Calculate the palm center using points 0, 5, 17 (wrist, index MCP, pinky MCP)
-        palm_center = np.mean([points[0], points[5], points[17]], axis=0)
-
-        # Calculate the palm normal vector using cross product of two palm vectors
-        palm_vector_1 = np.array(points[5]) - np.array(points[0])  # wrist to index MCP
-        palm_vector_2 = np.array(points[17]) - np.array(points[0])  # wrist to pinky MCP
-        palm_normal = np.cross(palm_vector_1, palm_vector_2)
-        palm_normal = palm_normal / np.linalg.norm(palm_normal)
-
-        # Project all points onto the palm plane
-        projected_points = []
-        for point in points:
-            point_vector = np.array(point) - palm_center
-            # Project the point onto the palm plane
-            projection = point_vector - np.dot(point_vector, palm_normal) * palm_normal
-            projected_points.append(projection)
-
-        # Calculate bounding box in the projected space
-        projected_points = np.array(projected_points)
-        min_coords = np.min(projected_points, axis=0)
-        max_coords = np.max(projected_points, axis=0)
-        scale = np.max(max_coords - min_coords)
-
-        if scale == 0:
-            scale = 1.0
-
-        # Normalize the projected points
-        normalized_points = (projected_points - palm_center) / scale
-
-        # Create feature vector
-        features = []
-
-        # 1. Add normalized coordinates
-        features.extend(normalized_points.flatten())
-
-        # 2. Add pairwise distances between key points
-        key_points_indices = [
-            0,  # wrist
-            4,  # thumb tip
-            8,  # index tip
-            12,  # middle tip
-            16,  # ring tip
-            20  # pinky tip
-        ]
-
-        for i in range(len(key_points_indices)):
-            for j in range(i + 1, len(key_points_indices)):
-                idx1, idx2 = key_points_indices[i], key_points_indices[j]
-                dist = np.linalg.norm(normalized_points[idx1] - normalized_points[idx2])
-                features.append(dist)
-
-        # 3. Add angles between finger vectors
-        for i in range(5):  # For each finger
-            base_idx = i * 4  # Base of each finger (MCP joints)
-            tip_idx = base_idx + 4  # Tip of each finger
-            if i == 0:  # Thumb has a different structure
-                base_idx = 2
-                tip_idx = 4
-
-            finger_vector = normalized_points[tip_idx] - normalized_points[base_idx]
-            finger_vector = finger_vector / np.linalg.norm(finger_vector)
-
-            # Calculate angle with palm normal
-            angle = np.arccos(np.clip(np.dot(finger_vector, palm_normal), -1.0, 1.0))
-            features.append(angle)
-
-        return np.array(features)
-
-    def extract_hand_features2(self, landmarks):
         if landmarks is None:
             return None
 

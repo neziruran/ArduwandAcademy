@@ -55,7 +55,9 @@ public class LevelManager : MonoBehaviour
 
         if (currentLevel.currentIngredient < currentLevel.potion.requiredIngredients.Count)
         {
-            txtTargetGesture.SetText(currentLevel.potion.requiredIngredients[currentLevel.currentIngredient]);
+            var targetIngredient = currentLevel.potion.requiredIngredients[currentLevel.currentIngredient];
+            var txtInstruction = "Gesture to perform:";
+            txtTargetGesture.SetText($"{txtInstruction} \n {targetIngredient}");
         }
         else
         {
@@ -107,7 +109,9 @@ public class LevelManager : MonoBehaviour
                 currentLevelIndex++;
                 Debug.Log("Congrats Potion Completed");
                 EventManager.OnLevelCompleted();
-                txtTargetGesture.SetText(level.potion.requiredIngredients[currentLevelIndex]);
+                var targetIngredient = level.potion.requiredIngredients[currentLevelIndex];
+                var txtInstruction = "Gesture to perform:";
+                txtTargetGesture.SetText($"{txtInstruction} \n {targetIngredient}");
 
                 Debug.LogError("level completed");
             }
@@ -118,7 +122,6 @@ public class LevelManager : MonoBehaviour
             UpdateRecipePanel();
         }
     }
-    
 
     public float GetFillTime()
     {

@@ -749,6 +749,21 @@ PrefabInstance:
       propertyPath: txtTargetGesture
       value: 
       objectReference: {fileID: 1047000078}
+    - target: {fileID: 8632010502394255277, guid: 44e045a3a55d05f45ad221a511b847f4,
+        type: 3}
+      propertyPath: levels.Array.data[0].requiredHoldTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632010502394255277, guid: 44e045a3a55d05f45ad221a511b847f4,
+        type: 3}
+      propertyPath: levels.Array.data[1].requiredHoldTime
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632010502394255277, guid: 44e045a3a55d05f45ad221a511b847f4,
+        type: 3}
+      propertyPath: levels.Array.data[2].requiredHoldTime
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

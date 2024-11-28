@@ -21,7 +21,7 @@ class GestureRecognizer:
         self.hands = self.mp_hands.Hands(
             static_image_mode=False,
             max_num_hands=1,
-            min_detection_confidence=0.9,
+            min_detection_confidence=0.7,
             min_tracking_confidence=0.5
         )
         self.mp_draw = mp.solutions.drawing_utils
@@ -92,82 +92,19 @@ class GestureRecognizer:
         if landmarks is None:
             return None
 
-        # Extract raw points
         points = [[lm.x, lm.y, lm.z] for lm in landmarks.landmark]
-
-        # Get the wrist point as origin
         wrist = points[0]
+        points = [[p[0] - wrist[0], p[1] - wrist[1], p[2] - wrist[2]] for p in points]
+        features = np.array(points).flatten()
 
-        # Calculate the palm center using points 0, 5, 17 (wrist, index MCP, pinky MCP)
-        palm_center = np.mean([points[0], points[5], points[17]], axis=0)
+        for i in range(len(points)):
+            for j in range(i + 1, len(points)):
+                dist = np.linalg.norm(np.array(points[i]) - np.array(points[j]))
+                features = np.append(features, dist)
 
-        # Calculate the palm normal vector using cross product of two palm vectors
-        palm_vector_1 = np.array(points[5]) - np.array(points[0])  # wrist to index MCP
-        palm_vector_2 = np.array(points[17]) - np.array(points[0])  # wrist to pinky MCP
-        palm_normal = np.cross(palm_vector_1, palm_vector_2)
-        palm_normal = palm_normal / np.linalg.norm(palm_normal)
+        return features
 
-        # Project all points onto the palm plane
-        projected_points = []
-        for point in points:
-            point_vector = np.array(point) - palm_center
-            # Project the point onto the palm plane
-            projection = point_vector - np.dot(point_vector, palm_normal) * palm_normal
-            projected_points.append(projection)
-
-        # Calculate bounding box in the projected space
-        projected_points = np.array(projected_points)
-        min_coords = np.min(projected_points, axis=0)
-        max_coords = np.max(projected_points, axis=0)
-        scale = np.max(max_coords - min_coords)
-
-        if scale == 0:
-            scale = 1.0
-
-        # Normalize the projected points
-        normalized_points = (projected_points - palm_center) / scale
-
-        # Create feature vector
-        features = []
-
-        # 1. Add normalized coordinates
-        features.extend(normalized_points.flatten())
-
-        # 2. Add pairwise distances between key points
-        key_points_indices = [
-            0,  # wrist
-            4,  # thumb tip
-            8,  # index tip
-            12,  # middle tip
-            16,  # ring tip
-            20  # pinky tip
-        ]
-
-        for i in range(len(key_points_indices)):
-            for j in range(i + 1, len(key_points_indices)):
-                idx1, idx2 = key_points_indices[i], key_points_indices[j]
-                dist = np.linalg.norm(normalized_points[idx1] - normalized_points[idx2])
-                features.append(dist)
-
-        # 3. Add angles between finger vectors
-        for i in range(5):  # For each finger
-            base_idx = i * 4  # Base of each finger (MCP joints)
-            tip_idx = base_idx + 4  # Tip of each finger
-            if i == 0:  # Thumb has a different structure
-                base_idx = 2
-                tip_idx = 4
-
-            finger_vector = normalized_points[tip_idx] - normalized_points[base_idx]
-            finger_vector = finger_vector / np.linalg.norm(finger_vector)
-
-            # Calculate angle with palm normal
-            angle = np.arccos(np.clip(np.dot(finger_vector, palm_normal), -1.0, 1.0))
-            features.append(angle)
-
-        return np.array(features)
-
-
-    def predict_gesture(self, landmarks, confidence_threshold=98):
+    def predict_gesture(self, landmarks, confidence_threshold=83):
         if self.classifier is None or landmarks is None:
             return "Unknown", 0
 
@@ -189,17 +126,10 @@ class GestureRecognizer:
         return "Unknown", 0
 
     def send_gesture_to_unity(self):
-        # Handle cases where no gesture is detected or confidence is 0
-        if not hasattr(self, 'gesture') or self.gesture == "None" or self.confidence == 0:
-            gesture_data = "Unknown|0"
-        else:
-            # Format the gesture and confidence into a string
-            gesture_data = f"{self.gesture}|{self.confidence:.1f}"
-
+        # Format the gesture and confidence into a string
+        gesture_data = f"{self.gesture}|{self.confidence}"
         # Send the data over UDP to Unity
         self.udp_client.sendto(gesture_data.encode(), (self.unity_ip, self.unity_port))
-
-
 
     def update_camera(self):
         if self.camera_active and self.classifier is not None:
@@ -225,15 +155,12 @@ class GestureRecognizer:
                     self.gesture_label.config(text=f"Detected Gesture: {gesture}")
                     self.confidence_label.config(text=f"Confidence: {confidence:.1f}%")
 
+                    # Send gesture data to Unity over UDP
+                    self.send_gesture_to_unity()
+
                 else:
-                    # No hand detected
-                    self.gesture = "None"
-                    self.confidence = 0
                     self.gesture_label.config(text="Detected Gesture: None")
                     self.confidence_label.config(text="Confidence: 0%")
-
-                # Send gesture data to Unity over UDP
-                self.send_gesture_to_unity()
 
                 # Convert frame to PhotoImage for displaying in the Tkinter GUI
                 image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))

@@ -31,12 +31,12 @@ public class PotionController : MonoBehaviour
     // Total volume of potion (from 0 to 1)
     private void SetLevel(float level)
     {
-        liquid.level = Mathf.Clamp(level, 0f, 0.75f); // Ensure level is between 0 and 1
+        liquid.level = Mathf.Clamp(level, 0f, 1f); // Ensure level is between 0 and 1
     }
 
     // This method will fill the potion by a specific fraction (based on ingredient size)
     public void FillPotion(float fraction)
     {
-        liquid.level = Mathf.Clamp(liquid.level + fraction, 0f, 0.75f);
+        liquid.level = Mathf.Clamp(liquid.level + fraction, 0f, 1f);
     }
 }
