@@ -13,24 +13,19 @@ public class LevelManager : MonoBehaviour
         public int currentIngredient;
     }
 
-    [SerializeField] private List<Level> levels = new List<Level>();
-    [SerializeField] private int currentLevelIndex = 0;
+    [SerializeField] private List<Level> levels = new();
+    [SerializeField] private int currentLevelIndex;
     [SerializeField] private PotionController currentPotionController;
-
-    [Header("Level Display")]
-    [SerializeField] private TextMeshProUGUI txtTargetGesture;
-    [SerializeField] private TextMeshProUGUI txtPotionName;
-
+    
 
     private void Start()
     {
-        UpdateRecipePanel();
         currentLevelIndex = 0;
         EventManager.OnLevelStart();
-        SpawnPotion(); // Spawn potion when level starts
+        StartGame();
     }
 
-    private void SpawnPotion()
+    private void StartGame()
     {
         var currentLevel = GetCurrentLevel();
         if (currentLevel != null && currentLevel.potion != null)
@@ -44,29 +39,15 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public PotionController GetCurrentPotion()
+    public Potion GetCurrentPotion()
     {
-        return currentPotionController; // Return the potion controller of the current level's potion
+        return levels[currentLevelIndex].potion;
     }
-
-    private void UpdateRecipePanel()
+    
+    public PotionController GetPotionController()
     {
-        var currentLevel = GetCurrentLevel();
-
-        if (currentLevel.currentIngredient < currentLevel.potion.requiredIngredients.Count)
-        {
-            var targetIngredient = currentLevel.potion.requiredIngredients[currentLevel.currentIngredient];
-            var txtInstruction = "Gesture to perform:";
-            txtTargetGesture.SetText($"{txtInstruction} \n {targetIngredient}");
-        }
-        else
-        {
-            Debug.LogError("Current ingredient index is out of bounds.");
-        }
-        
-        txtPotionName.SetText(currentLevel.potion.name);
+        return currentPotionController; 
     }
-
     private void OnEnable()
     {
         EventManager.ONGestureCompleted += OnIngredientComplete;
@@ -75,9 +56,8 @@ public class LevelManager : MonoBehaviour
 
     private void OnLevelCompleted()
     {
-        Debug.Log("level completed");
-        var currentlevel = GetCurrentLevel();
-        currentlevel.currentIngredient = 0;
+        var currentLevel = GetCurrentLevel();
+        currentLevel.currentIngredient = 0;
     }
 
     private void OnDisable()
@@ -100,26 +80,17 @@ public class LevelManager : MonoBehaviour
     private void OnIngredientComplete()
     {
         var level = GetCurrentLevel();
-        if (level != null)
+        if (level == null) return;
+        
+        if (level.potion.requiredIngredients.Count == level.currentIngredient + 1)
         {
-            Debug.Log($"potion count is {level.potion.requiredIngredients.Count} ing count is {level.currentIngredient}");
-
-            if (level.potion.requiredIngredients.Count == level.currentIngredient + 1)
-            {
-                currentLevelIndex++;
-                Debug.Log("Congrats Potion Completed");
-                EventManager.OnLevelCompleted();
-                var targetIngredient = level.potion.requiredIngredients[currentLevelIndex];
-                var txtInstruction = "Gesture to perform:";
-                txtTargetGesture.SetText($"{txtInstruction} \n {targetIngredient}");
-
-                Debug.LogError("level completed");
-            }
-            else
-            {
-                level.currentIngredient++;
-            }
-            UpdateRecipePanel();
+            currentLevelIndex++;
+            EventManager.OnLevelCompleted();
+            Debug.LogError("level completed");
+        }
+        else
+        {
+            level.currentIngredient++;
         }
     }
 
@@ -128,13 +99,12 @@ public class LevelManager : MonoBehaviour
         return GetCurrentLevel()?.requiredHoldTime ?? 0f;
     }
 
-    public string GetCurrentRecipeItem()
+    public Ingredient GetIngredient()
     {
-        var level = GetCurrentLevel();
-        if (level != null && level.potion.requiredIngredients.Count > level.currentIngredient)
-        {
-            return level.potion.requiredIngredients[level.currentIngredient];
-        }
-        return string.Empty;
+        var potion = GetCurrentPotion();
+        var currentIngredient = GetCurrentLevel().currentIngredient;
+        if (potion == null || GetCurrentLevel() == null)
+            Debug.LogError("Something went wrong");
+        return potion.requiredIngredients[currentIngredient];
     }
 }

@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -50,12 +51,14 @@
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\SpotlightAnimator.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\CubeSpawn.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolumeDepthPrePassRenderFeature.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\SO\Ingredient.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXRotation.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolume.ShaderParams.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Forces\DemoResources\Scripts\RandomMove.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\GestureRecognizer.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\EventManager.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\CylinderManager.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Core\PotionController.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\FishAnimator.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\LevelManager.cs" />
@@ -99,6 +102,7 @@
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Shaders\SkyboxGrid.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\_PROJECT\Art\Shaders\Stylized Sky.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVCommonsURP.hlsl" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVLiquidPassBase.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
