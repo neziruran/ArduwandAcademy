@@ -50,6 +50,7 @@
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\RandomRotation.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_CameraDepth.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\_PROJECT\Scripts\Managers\ParticleManager.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\SpotlightAnimator.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\CubeSpawn.cs" />

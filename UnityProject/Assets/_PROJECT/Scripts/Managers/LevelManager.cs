@@ -90,6 +90,7 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
+            ParticleManager.Instance.PlayCorrectIngredientEffect(Vector3.zero);
             level.currentIngredient++;
         }
     }
