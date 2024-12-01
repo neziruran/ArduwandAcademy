@@ -15,7 +15,7 @@ C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-8906
+3173
 Successfully changed project path to: C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/90535/Desktop/Arduwand Academy/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18284] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 2185568862 [EditorId] 2185568862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4600] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 3433753720 [EditorId] 3433753720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18284] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 2185568862 [EditorId] 2185568862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4600] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 3433753720 [EditorId] 3433753720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.36 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 10.90 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009319 seconds.
-- Loaded All Assemblies, in  0.388 seconds
+Registered in 0.014325 seconds.
+- Loaded All Assemblies, in  0.655 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
-Domain Reload Profiling: 702ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 1154ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (193ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (238ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (316ms)
+	FinalizeReload (503ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (247ms)
+		SetupLoadedEditorAssemblies (384ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 702ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.636 seconds
-Refreshing native plugins compatible for Editor in 4.20 ms, found 5 plugins.
+- Loaded All Assemblies, in  1.122 seconds
+Refreshing native plugins compatible for Editor in 7.34 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.751 seconds
-Domain Reload Profiling: 1384ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  1.186 seconds
+Domain Reload Profiling: 2302ms
+	BeginReloadAssembly (272ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (378ms)
-		LoadAssemblies (310ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (541ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (120ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (752ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1187ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (583ms)
+		SetupLoadedEditorAssemblies (916ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 8.02 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 8.26 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3474 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (352.6 KB). Loaded Objects now: 3934.
-Memory consumption went from 181.6 MB to 181.3 MB.
-Total: 5.626600 ms (FindLiveObjects: 0.425700 ms CreateObjectMapping: 0.331700 ms MarkObjects: 4.583500 ms  DeleteObjects: 0.284700 ms)
+Unloading 3476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (352.1 KB). Loaded Objects now: 3936.
+Memory consumption went from 181.8 MB to 181.4 MB.
+Total: 7.081300 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.361300 ms MarkObjects: 5.920000 ms  DeleteObjects: 0.330400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,68 +180,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 88347.340285 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Violet Theme Ui/Buttons/Button Purple.png
-  artifactKey: Guid(4046d85c2755cda44b0f81bbd3d35cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Violet Theme Ui/Buttons/Button Purple.png using Guid(4046d85c2755cda44b0f81bbd3d35cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29f9cdac9b69cde2a84e93dcb6c8d5e') in 0.166011 seconds
+  Time since last request: 89672.558300 seconds.
+  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Models/ETFX_Shield.FBX
+  artifactKey: Guid(ceb86a32224dc234d8c721b83a2c6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Models/ETFX_Shield.FBX using Guid(ceb86a32224dc234d8c721b83a2c6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e636b1fe3b2096df5ba3265c37073bed') in 1.012342 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 52.727398 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, autumn_5.png
-  artifactKey: Guid(74335ec10bb861c4e850a4e4b2b18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, autumn_5.png using Guid(74335ec10bb861c4e850a4e4b2b18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55522f4c93c57354b410a8d1f971e87') in 0.023562 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/_PROJECT/3RD PARTY/LiquidVolume/Demos/NonCapped/DemoResources/Meshes/Cup.obj
+  artifactKey: Guid(fc68a9b5ea59841468329c8b6e32795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PROJECT/3RD PARTY/LiquidVolume/Demos/NonCapped/DemoResources/Meshes/Cup.obj using Guid(fc68a9b5ea59841468329c8b6e32795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febf60f6187aee0d58722c2f31e192e3') in 1.318680 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_2.png
-  artifactKey: Guid(cf82e001c819fec4d9adfbb1ec458f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_2.png using Guid(cf82e001c819fec4d9adfbb1ec458f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f60144d9c85da31ff2e0c2dfd0b2ce') in 0.024677 seconds
+  Time since last request: 17.896650 seconds.
+  path: Assets/_PROJECT/3RD PARTY/LiquidVolume/Resources/Prefabs/SphereFlask.prefab
+  artifactKey: Guid(8fb3550a3fd3348b786f5c6ea49318ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PROJECT/3RD PARTY/LiquidVolume/Resources/Prefabs/SphereFlask.prefab using Guid(8fb3550a3fd3348b786f5c6ea49318ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f291287bb41a3b279b907a566b70b1e6') in 0.035062 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, winter_13.png
-  artifactKey: Guid(7ceee878c08653e458e499ffe0923cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, winter_13.png using Guid(7ceee878c08653e458e499ffe0923cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7020c47655045e40d5dfe7c128f3f1') in 0.023220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, autumn_8.png
-  artifactKey: Guid(4c3561981b92e3d47bd73dfbe38d5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, autumn_8.png using Guid(4c3561981b92e3d47bd73dfbe38d5d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdcc4453e79000f48564e794b08921a') in 0.024651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_9.png
-  artifactKey: Guid(52929d854f0a98d4088fcef55e6ef863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_9.png using Guid(52929d854f0a98d4088fcef55e6ef863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c429d62111ea2c83f59eae3da923d8b') in 0.024074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_5.png
-  artifactKey: Guid(67c3c64788a01b543b1790a6ba6e5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, summer_5.png using Guid(67c3c64788a01b543b1790a6ba6e5cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f81b020015668f4374abdb993f6028d') in 0.022901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, winter_11.png
-  artifactKey: Guid(c277311ecfb948a4b9d8501326aa03b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Background for mobile games, forest/Textures/Background, winter_11.png using Guid(c277311ecfb948a4b9d8501326aa03b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1e511ffb87e29eba374193d06899ff') in 0.026197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 9
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
 AssetImportWorker is now disconnected from the server
