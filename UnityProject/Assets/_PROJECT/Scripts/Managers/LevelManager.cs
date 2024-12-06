@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
@@ -16,7 +17,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private List<Level> levels = new();
     [SerializeField] private int currentLevelIndex;
     [SerializeField] private PotionController currentPotionController;
-    
+    [SerializeField] private UIManager uıManager;
+    [SerializeField] private UDPReceiver receiver;
 
     private void Start()
     {
@@ -39,7 +41,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public Potion GetCurrentPotion()
+    private Potion GetCurrentPotion()
     {
         return levels[currentLevelIndex].potion;
     }
@@ -75,6 +77,14 @@ public class LevelManager : MonoBehaviour
         return levels[currentLevelIndex];
     }
 
+
+    public async void GetNextLevel()
+    {
+        EventManager.OnLevelCompleted();
+        await Task.Delay(50);
+        receiver.IsActive = true;
+
+    }
   
 
     private void OnIngredientComplete()
@@ -85,8 +95,10 @@ public class LevelManager : MonoBehaviour
         if (level.potion.requiredIngredients.Count == level.currentIngredient + 1)
         {
             currentLevelIndex++;
-            EventManager.OnLevelCompleted();
-            Debug.LogError("level completed");
+            uıManager.SetLevelPanel(true);
+            ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+            receiver.IsActive = false;
+
         }
         else
         {
@@ -94,7 +106,6 @@ public class LevelManager : MonoBehaviour
             level.currentIngredient++;
         }
     }
-
     public float GetFillTime()
     {
         return GetCurrentLevel()?.requiredHoldTime ?? 0f;

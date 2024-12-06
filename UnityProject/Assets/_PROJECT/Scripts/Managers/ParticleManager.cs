@@ -6,8 +6,9 @@ public class ParticleManager : MonoBehaviour
 {
     public static ParticleManager Instance { get; private set; }
 
-    [Header("Particle Prefabs")]
-    public GameObject correctIngredientEffect;
+    [Header("Particle Prefabs")] 
+    [SerializeField] private GameObject correctIngredientFX;
+    [SerializeField] private GameObject levelCompleteFX;
 
     [Header("Settings")]
     public float particleLifetime = 5f; // Time in seconds before particles are destroyed
@@ -39,6 +40,11 @@ public class ParticleManager : MonoBehaviour
 
     public void PlayCorrectIngredientEffect(Vector3 position)
     {
-        SpawnEffect(correctIngredientEffect, position);
+        SpawnEffect(correctIngredientFX, position);
+    }
+    
+    public void PlayLevelComplete(Vector3 position)
+    {
+        SpawnEffect(levelCompleteFX, position);
     }
 }

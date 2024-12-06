@@ -20,6 +20,9 @@ public class UDPReceiver : MonoBehaviour
     [SerializeField] private TextMeshProUGUI connectionStatusText;
     [SerializeField] private Canvas debugPanel;
     
+    public bool IsActive { get; set; }
+
+
     private UdpClient _client;
     private CancellationTokenSource _cancellationTokenSource;
     private bool _isInitialized;
@@ -41,6 +44,7 @@ public class UDPReceiver : MonoBehaviour
 
     private async void Start()
     {
+        IsActive = true;
         _initialWaitTimer = 0f;
         UpdateConnectionStatus(ConnectionState.Waiting);
 
@@ -139,6 +143,7 @@ public class UDPReceiver : MonoBehaviour
 
     private void Update()
     {
+        if(!IsActive)return;
         // Update UI only if debug panel is active
         if (enableDebugPanel)
         {
