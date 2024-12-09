@@ -48,12 +48,16 @@ MonoBehaviour:
   - potion: {fileID: 11400000, guid: acc034a82d1f45449ad563403f884623, type: 2}
     requiredHoldTime: 3
     currentIngredient: 0
-  - potion: {fileID: 11400000, guid: d01db3031f516db42bde1feda6805a63, type: 2}
+  - potion: {fileID: 11400000, guid: acc034a82d1f45449ad563403f884623, type: 2}
     requiredHoldTime: 5
     currentIngredient: 0
-  - potion: {fileID: 11400000, guid: 097c88c52b85a274b8e0e4ba6ad206e9, type: 2}
+  - potion: {fileID: 11400000, guid: acc034a82d1f45449ad563403f884623, type: 2}
     requiredHoldTime: 8
     currentIngredient: 0
   currentLevelIndex: 0
-  txtTargetGesture: {fileID: 0}
-  txtPotionName: {fileID: 0}
+  currentWand: 0
+  currentPotionController: {fileID: 0}
+  uiManager: {fileID: 0}
+  udpReceiver: {fileID: 0}
+  wekinatorReceiver: {fileID: 0}
+  recognizer: {fileID: 0}

@@ -9,12 +9,21 @@ public class PotionController : MonoBehaviour
 
     private void OnEnable()
     {
+        EventManager.ONGestureFail += OnFail;
         EventManager.ONLevelCompleted += OnSetPotionLevel;
+
     }
 
     private void OnDisable()
     {
         EventManager.ONLevelCompleted -= OnSetPotionLevel;
+        EventManager.ONGestureFail -= OnFail;
+
+    }
+
+    private void OnFail()
+    {
+        SetLevel(liquid.level/2f);
     }
 
     private void OnSetPotionLevel()

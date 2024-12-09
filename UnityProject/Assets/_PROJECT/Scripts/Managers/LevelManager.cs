@@ -16,12 +16,16 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private List<Level> levels = new();
     [SerializeField] private int currentLevelIndex;
+    [SerializeField] public int currentWand;
     [SerializeField] private PotionController currentPotionController;
-    [SerializeField] private UIManager uıManager;
-    [SerializeField] private UDPReceiver receiver;
+    [SerializeField] private UIManager uiManager;
+    [SerializeField] private UDPReceiver udpReceiver;
+    [SerializeField] private WekinatorReceiver wekinatorReceiver;
+    [SerializeField] private GestureRecognizer recognizer;
 
     private void Start()
     {
+        currentWand = 1;
         currentLevelIndex = 0;
         EventManager.OnLevelStart();
         StartGame();
@@ -52,6 +56,7 @@ public class LevelManager : MonoBehaviour
     }
     private void OnEnable()
     {
+        EventManager.ONWandPerformed += OnWandPerformed;
         EventManager.ONGestureCompleted += OnIngredientComplete;
         EventManager.ONLevelCompleted += OnLevelCompleted;
     }
@@ -82,11 +87,49 @@ public class LevelManager : MonoBehaviour
     {
         EventManager.OnLevelCompleted();
         await Task.Delay(50);
-        receiver.IsActive = true;
+        udpReceiver.IsActive = true;
+        recognizer.isActive = true;
 
     }
-  
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DebugWand(currentWand);
+            currentWand++;
+            uiManager.SetWandInfo(currentWand);
+            if (currentWand == 4)
+            {
+                currentWand = 0;
+                currentLevelIndex++;
+                uiManager.SetWandInfo(0); // deactivate info
+                uiManager.SetLevelPanel(true);
+                ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+            }
+        }
+    }
+
+    private void OnWandPerformed()
+    {
+        Debug.Log("WandPerformed");
+        currentWand++;
+        uiManager.SetWandInfo(currentWand);
+        if (currentWand == 4)
+        {
+            currentWand = 0;
+            currentLevelIndex++;
+            uiManager.SetWandInfo(0); // deactivate info
+            uiManager.SetLevelPanel(true);
+            ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+        }
+    }
+
+    private void DebugWand(int operation)
+    {
+        wekinatorReceiver.HandleGesture(operation);
+    }
+    
     private void OnIngredientComplete()
     {
         var level = GetCurrentLevel();
@@ -94,11 +137,11 @@ public class LevelManager : MonoBehaviour
         
         if (level.potion.requiredIngredients.Count == level.currentIngredient + 1)
         {
-            currentLevelIndex++;
-            uıManager.SetLevelPanel(true);
-            ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
-            receiver.IsActive = false;
-
+            
+            uiManager.SetRecipePanel(false);
+            uiManager.SetWandInfo(1);
+            udpReceiver.IsActive = false;
+            recognizer.isActive = false;
         }
         else
         {

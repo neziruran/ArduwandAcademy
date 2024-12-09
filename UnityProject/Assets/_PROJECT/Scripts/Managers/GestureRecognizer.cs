@@ -10,7 +10,7 @@ public class GestureRecognizer : MonoBehaviour
     [SerializeField] private Image recognitionBar;
 
     [Header("Settings")]
-    [SerializeField] private bool isActive;
+    [SerializeField] public bool isActive;
     [SerializeField] private bool catchingGesture;
     
     private float currentFillTime = 0f;
@@ -42,7 +42,7 @@ public class GestureRecognizer : MonoBehaviour
     private void Update()
     {
         if (!isActive) return;
-
+        
         var currentGesture = receiver.GetGesture();
         var targetGesture = levelManager.GetIngredient();
 
@@ -59,6 +59,7 @@ public class GestureRecognizer : MonoBehaviour
                 // Gesture failed, reset the bar
                 ResetBar();
                 catchingGesture = false;
+                EventManager.OnGestureFail();
                 Debug.LogWarning("Gesture catching failed");
             }
         }
@@ -88,7 +89,6 @@ public class GestureRecognizer : MonoBehaviour
                 catchingGesture = false; // Stop catching the gesture
                 EventManager.OnGestureCompleted();
                 ResetBar();
-                Debug.Log("Gesture completed successfully!");
             }
         }
     }

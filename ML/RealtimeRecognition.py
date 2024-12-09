@@ -182,3 +182,4 @@ class GestureRecognizer:
 if __name__ == "__main__":
     app = GestureRecognizer()
     app.run()
+z""

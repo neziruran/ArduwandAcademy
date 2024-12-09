@@ -203,7 +203,7 @@ MonoBehaviour:
   _speed: 1
   _sparklingIntensity: 0.02
   _sparklingAmount: 0.303
-  _deepObscurance: 1.83
+  _deepObscurance: 0
   _foamColor: {r: 1, g: 1, b: 1, a: 0.65}
   _foamScale: 0.2
   _foamThickness: 0.04
