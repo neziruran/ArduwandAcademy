@@ -41,35 +41,41 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_SG.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Editor\LiquidVolumeEditor.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS.cs" />
-    <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_ShaderUpdateUnityTime_Editor.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Config.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.UIFeatures.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_Utils.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ExpressionParser.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GUI.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GradientManager.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_OutlineInspector.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ShaderGeneratorUtils.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_GetPosOnWater_Editor.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_RampGenerator.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_SurfacePBS_SG.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_SurfacePBS_SG.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_GradientManager.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_Config.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_RampGenerator.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_ShaderUpdateUnityTime_Editor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_Utils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ExpressionParser.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS_SG.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_OutlineInspector.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.UIFeatures.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\TCP2_GUI.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ShaderGeneratorUtils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_GetPosOnWater_Editor.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Editor\LiquidVolumeEditorStyles.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_SG.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS_SG.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Editor\Resources\ParentTexPreview.shader" />
-    <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Editor\Resources\DepthTexPreview.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -330,7 +336,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DemiEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -339,25 +345,25 @@
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenProEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -836,13 +842,13 @@
       <Project>{2106585b-b409-cb68-b5f4-5b9dd210a60f}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="extOSC.csproj">
-      <Project>{655c7f6e-7368-235a-b294-9d0ef933119f}</Project>
-      <Name>extOSC</Name>
-    </ProjectReference>
     <ProjectReference Include="extOSC.Editor.csproj">
       <Project>{ad2ebc12-c8e1-15a9-2cbe-eceb93643d97}</Project>
       <Name>extOSC.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="extOSC.csproj">
+      <Project>{655c7f6e-7368-235a-b294-9d0ef933119f}</Project>
+      <Name>extOSC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

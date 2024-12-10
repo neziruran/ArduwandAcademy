@@ -41,60 +41,66 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelControlCreator.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Windows\OSCWindowControlCreator.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorTextures.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\OSCReceiverEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCPingServerEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCReceiverComponentEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\UI\OSCMultiplySlidersEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Windows\OSCWindow.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCReceiverEventEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\UI\OSCRotaryEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCReflectionMemberDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCPacketEditableDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelPacketEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\UI\OSCPadEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\OSCTransmitterEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorSettings.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\UI\OSCButtonEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelPacket.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCHierarchyIcon.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorUtils.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCSplitPanel.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanel.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\OSCMapBundleEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCFilterDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Windows\OSCWindowMapping.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCReceiverReflectionEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCMenuOptions.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCSelectorDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCComponentEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCPingClientEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCSharpCode.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelControllers.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterComponentEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorInterface.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Windows\OSCWindowConsole.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorStyles.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelMapping.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Panels\OSCPanelConsole.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterPingEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCHostDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCDefinesManager.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterInformerEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\UI\OSCSliderEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterSeparateVector3Editor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCEditorSprites.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Drawers\OSCPacketDrawer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Editors\Components\OSCReceiverGyroEditor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\OSCWindowsStoreHelper.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Editor\Windows\OSCWindowDebug.cs" />
-    <None Include="Assets\_PROJECT\extOSC\Scripts\Editor\extOSC.Editor.asmdef" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCHostDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Windows\OSCWindowConsole.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\UI\OSCMultiplySlidersEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCFilterDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\UI\OSCButtonEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelConsole.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterPingEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCReceiverComponentEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterInformerEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCReceiverGyroEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorSprites.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterSeparateVector3Editor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Windows\OSCWindowMapping.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\UI\OSCPadEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCHierarchyIcon.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCMenuOptions.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\UI\OSCRotaryEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCTransmitterComponentEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCDefinesManager.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCSharpCode.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelControlCreator.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelControllers.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorStyles.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCPingServerEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorUtils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCReceiverEventEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Windows\OSCWindowDebug.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCSelectorDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCPingClientEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCPacketDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorSettings.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorTextures.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCComponentEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\Components\OSCReceiverReflectionEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\OSCTransmitterEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCPacketEditableDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Windows\OSCWindow.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCEditorInterface.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\OSCMapBundleEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCSplitPanel.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\OSCReceiverEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelPacketEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Editors\UI\OSCSliderEditor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\OSCWindowsStoreHelper.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanel.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelPacket.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Drawers\OSCReflectionMemberDrawer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Panels\OSCPanelMapping.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\Windows\OSCWindowControlCreator.cs" />
+    <None Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Editor\extOSC.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -354,7 +360,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DemiEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -363,25 +369,25 @@
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenProEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

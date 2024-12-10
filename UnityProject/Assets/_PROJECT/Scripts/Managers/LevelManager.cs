@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
@@ -101,27 +102,41 @@ public class LevelManager : MonoBehaviour
             uiManager.SetWandInfo(currentWand);
             if (currentWand == 4)
             {
-                currentWand = 0;
-                currentLevelIndex++;
-                uiManager.SetWandInfo(0); // deactivate info
-                uiManager.SetLevelPanel(true);
-                ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+                DOVirtual.DelayedCall(2f, (() =>
+                {
+                    ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+
+                }));
+                DOVirtual.DelayedCall(3f, (() =>
+                {
+                    currentWand = 0;
+                    currentLevelIndex++;
+                    uiManager.SetWandInfo(0); // deactivate info
+                    uiManager.SetLevelPanel(true);
+                }));
             }
         }
     }
 
     private void OnWandPerformed()
     {
-        Debug.Log("WandPerformed");
         currentWand++;
         uiManager.SetWandInfo(currentWand);
         if (currentWand == 4)
         {
-            currentWand = 0;
-            currentLevelIndex++;
-            uiManager.SetWandInfo(0); // deactivate info
-            uiManager.SetLevelPanel(true);
-            ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+            DOVirtual.DelayedCall(2f, (() =>
+            {
+                ParticleManager.Instance.PlayLevelComplete(Vector3.zero);
+
+            }));
+            DOVirtual.DelayedCall(3f, (() =>
+            {
+                currentWand = 0;
+                currentLevelIndex++;
+                uiManager.SetWandInfo(0); // deactivate info
+                uiManager.SetLevelPanel(true);
+            }));
+            
         }
     }
 

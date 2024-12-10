@@ -41,73 +41,79 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\03) Events\Scripts\EventsExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXLightFade.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\RandomRotation.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_CameraDepth.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageTransmitter.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_PBS.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\ParticleManager.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\12) Match Pattern\Scripts\MatchPatternExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\06) Mapping\Scripts\MappingExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Scripts\TCP2_PlanarReflection.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\SpotlightAnimator.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_Cat.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Core\WekinatorReceiver.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Cubes\DemoResources\Scripts\CubeSpawn.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolumeDepthPrePassRenderFeature.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Scripts\TCP2_ShaderUpdateUnityTime.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\SO\Ingredient.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXRotation.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_PBS_View.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolume.ShaderParams.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\04) Informers\Scripts\InformersExample.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\11) Array\Scripts\ArrayExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Forces\DemoResources\Scripts\RandomMove.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_Cat.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\GestureRecognizer.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageReceiver.cs" />
-    <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageReceiver.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\EventManager.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\CylinderManager.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\02) Value Types\Scripts\ValueTypesExample.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\13) Marshalling\Scripts\MarshallingExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\13) Marshalling\Scripts\MarshallingExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_GammaLinear.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\UIManager.cs" />
-    <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_PlanarReflection.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Core\PotionController.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\10) Ping\Scripts\PingExample.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\FishAnimator.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_View.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Managers\LevelManager.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_GetPosOnWater.cs" />
-    <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\11) Array\Scripts\ArrayExample.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\VerticalBounce.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Scripts\LiquidLevelPouringSync.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Scripts\LiquidVolume.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_RuntimeUtils.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_ShaderUpdateUnityTime.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\07) Scripting\Scripts\ScriptingExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\02) Value Types\Scripts\ValueTypesExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\03) Events\Scripts\EventsExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_View.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\Core\UDPReceive.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\FlaskAnimator.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\10) Ping\Scripts\PingExample.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\09) Address Masks\Scripts\AddressMaskExample.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_GammaLinear.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Scripts\TCP2_CameraDepth.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Scripts\TCP2_GetPosOnWater.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\CameraAnimator.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\07) Scripting\Scripts\ScriptingExample.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\12) Match Pattern\Scripts\MatchPatternExample.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_PBS_View.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\09) Address Masks\Scripts\AddressMaskExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_Camera.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\JMO Assets\Toony Colors Pro\Scripts\TCP2_RuntimeUtils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Examples\04) Informers\Scripts\InformersExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\_PROJECT\Scripts\SO\Potion.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Exhibition\DemoResources\Scripts\PortalAnimator.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageTransmitter.cs" />
-    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Beer\DemoResources\Scripts\SpillController.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Examples\06) Mapping\Scripts\MappingExample.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\Cat Demo Assets\Scripts\TCP2_Demo_Camera.cs" />
-    <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_PBS.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\_PROJECT\3RD PARTY\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -121,7 +127,7 @@
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Prefabs\Readme.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LiquidVolumeDefaultNoFlask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Demigiant\readme_DOTweenPro.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Beer\DemoResources\Textures\readme.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Prefabs\Readme.txt" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Prefabs\Readme.txt" />
@@ -134,28 +140,28 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\_PROJECT\extOSC\package.json" />
+    <None Include="Assets\_PROJECT\3RD PARTY\extOSC\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Shaders\SkyboxGrid.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\README.txt" />
-    <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.xml" />
     <None Include="Assets\_PROJECT\Art\Shaders\Stylized Sky.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVCommonsURP.hlsl" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LVLiquidPassBase.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Resources\Shaders\LiquidVolumeSimple.shader" />
     <None Include="Assets\_PROJECT\3RD PARTY\LiquidVolume\Demos\Pouring\DemoResources\Shaders\Particle Add DIsplacement.shader" />
-    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\_PROJECT\extOSC\versions.txt" />
+    <None Include="Assets\_PROJECT\3RD PARTY\extOSC\versions.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -406,13 +412,13 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -869,13 +875,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="extOSC.csproj">
-      <Project>{655c7f6e-7368-235a-b294-9d0ef933119f}</Project>
-      <Name>extOSC</Name>
-    </ProjectReference>
     <ProjectReference Include="extOSC.Editor.csproj">
       <Project>{ad2ebc12-c8e1-15a9-2cbe-eceb93643d97}</Project>
       <Name>extOSC.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="extOSC.csproj">
+      <Project>{655c7f6e-7368-235a-b294-9d0ef933119f}</Project>
+      <Name>extOSC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,156 +41,162 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector4.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventVector4.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCReceiverWindowsStoreBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerColor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventBool.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerBlob.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventImpulse.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCTransmitterWindowsStoreBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector2.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventNull.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Misc\OSCTransmitterPing.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Reflection\OSCReflectionMember.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventQuaternion.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerBool.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCStandaloneManager.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerChar.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventTimeTag.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Misc\OSCReceiverGyro.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventColor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerArray.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\IOSCBind.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventPacket.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerDouble.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionChar.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\OSCComponent.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCEnums.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Mapping\OSCMapEnum.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\OSCConverter.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Mapping\OSCMapValue.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCRotary.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCMatchPattern.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerRect.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventColor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector4.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Mapping\OSCMapBundle.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerImpulse.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector3.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerFalse.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventDouble.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventVector3.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventBundle.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflection.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCReceiver.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventVector3.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCMultiplySliders.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Ping\OSCPingServer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerString.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerQuaternion.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCControls.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPacker.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionTimeTag.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventRect.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventVector4.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventRect.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCTransmitter.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionLong.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Attributes\OSCSelectorAttribute.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventImpulse.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionDouble.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionColor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionArray.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventMessage.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCValue.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionBool.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventArray.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionBlob.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\IOSCBindBundle.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventVector2.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerFloatToInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\OSCReceiverComponent.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventBlob.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventNull.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventString.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Misc\OSCReceiverSkinnedMesh.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionRect.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerTimeTag.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector2.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventChar.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerLong.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventDouble.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Ping\OSCPingClient.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector3.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventInt.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerString.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionString.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventString.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCPad.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventLong.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEvent.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerNull.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Reflection\OSCReflection.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCSlider.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventChar.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventArray.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerColor.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCBundle.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCBindBundle.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerTimeTag.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\OSCConsolePacket.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\OSCConsole.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCTransmitterStandaloneBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventBlob.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventMessage.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCReceiverStandaloneBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventLong.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Mapping\OSCMapMessage.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCReceiverBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Attributes\OSCHostAttribute.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCUtilities.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerLong.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerTrue.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Packers\OSCPackerMidi.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\UI\OSCButton.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionQuaternion.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventBool.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerBlob.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCMessage.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Network\OSCTransmitterBackend.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformer.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\OSCBase.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Reflection\OSCReflectionProperty.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerIntToFloat.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Misc\OSCTransmitterSeparateVector3.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerDouble.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\OSCBind.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\Events\OSCEventDateTime.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Core\IOSCPacket.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Events\OSCReceiverEventQuaternion.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\OSCTransmitterComponent.cs" />
-    <Compile Include="Assets\_PROJECT\extOSC\Scripts\Components\Informers\OSCTransmitterInformerChar.cs" />
-    <None Include="Assets\_PROJECT\extOSC\Scripts\extOSC.asmdef" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventTimeTag.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventVector4.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerDouble.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventArray.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCReceiverWindowsStoreBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerQuaternion.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflection.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionTimeTag.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionDouble.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Attributes\OSCHostAttribute.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerString.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Mapping\OSCMapEnum.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEvent.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCStandaloneManager.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventVector3.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCButton.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerBlob.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCBind.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerColor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerNull.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\IOSCBind.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventBlob.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventColor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionBool.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventLong.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionString.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventColor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCTransmitterStandaloneBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCReceiver.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerBool.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCMessage.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionLong.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Attributes\OSCSelectorAttribute.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventMessage.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventArray.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerChar.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector4.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\OSCReceiverComponent.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventMessage.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventBool.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Mapping\OSCMapMessage.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerString.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCMatchPattern.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCRotary.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventQuaternion.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventRect.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\OSCConverter.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Misc\OSCTransmitterSeparateVector3.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCReceiverBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventVector2.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerTimeTag.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventNull.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerLong.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\OSCConsole.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Misc\OSCReceiverGyro.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventImpulse.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerTimeTag.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCMultiplySliders.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector3.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerArray.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\IOSCBindBundle.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCEnums.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCUtilities.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\OSCConsolePacket.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerImpulse.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCReceiverStandaloneBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCTransmitterBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\OSCTransmitterComponent.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventBool.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCBundle.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventBlob.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventChar.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventQuaternion.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Misc\OSCTransmitterPing.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCBindBundle.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerLong.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionVector2.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerChar.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPacker.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerFloatToInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Mapping\OSCMapBundle.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Reflection\OSCReflection.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionArray.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerTrue.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventVector3.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerColor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector3.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionChar.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\OSCBase.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventDouble.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCSlider.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Misc\OSCReceiverSkinnedMesh.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionRect.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventChar.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventDateTime.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Ping\OSCPingClient.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Ping\OSCPingServer.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCTransmitter.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerRect.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCPad.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Reflection\OSCReflectionMember.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Mapping\OSCMapValue.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventPacket.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventLong.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventString.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionColor.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\OSCComponent.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Reflection\OSCReflectionProperty.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventNull.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\IOSCPacket.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventString.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerBlob.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventRect.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\OSCValue.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerIntToFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventVector4.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventDouble.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionBlob.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventImpulse.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventVector2.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerFloat.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\ReceiverReflection\OSCReceiverReflectionQuaternion.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Network\OSCTransmitterWindowsStoreBackend.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\UI\OSCControls.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Packers\OSCPackerFalse.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector4.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerMidi.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerDouble.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Informers\OSCTransmitterInformerVector2.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Components\Events\OSCReceiverEventInt.cs" />
+    <Compile Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\Core\Events\OSCEventBundle.cs" />
+    <None Include="Assets\_PROJECT\3RD PARTY\extOSC\Scripts\extOSC.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -447,7 +453,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DemiEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -456,25 +462,25 @@
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenProEditor">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <HintPath>C:\Users\90535\Desktop\Arduwand Academy\UnityProject\Assets\_PROJECT\3RD PARTY\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
