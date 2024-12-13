@@ -15,6 +15,6 @@ MonoBehaviour:
   potionPrefab: {fileID: 8738394113610190521, guid: b95193eee6108a64ca8bc2340bc3b202,
     type: 3}
   requiredIngredients:
-  - {fileID: 11400000, guid: 6253baf1783bba2408c3a2567e924099, type: 2}
-  - {fileID: 11400000, guid: 61779f962b84b204995ad90e80ff9261, type: 2}
+  - {fileID: 11400000, guid: 680c6c16ae0411e44b96f3ac970b327b, type: 2}
   - {fileID: 11400000, guid: 13d8cb4963bc2d844b1928bcbcf1268e, type: 2}
+  - {fileID: 11400000, guid: 0b75d0cc1ff55354d84a025c757fe4fc, type: 2}

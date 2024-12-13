@@ -4,7 +4,7 @@ OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'tr' Physical Memory: 32607 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1-x86_64\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-6267
+14393
 Successfully changed project path to: C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 C:/Users/90535/Desktop/Arduwand Academy/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Users/90535/Desktop/Arduwand Academy/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24164] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 529904525 [EditorId] 529904525 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17436] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 95195647 [EditorId] 95195647 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24164] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 529904525 [EditorId] 529904525 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17436] Host "[IP] 10.85.14.122 [Port] 0 [Flags] 2 [Guid] 95195647 [EditorId] 95195647 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-57UG6SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 18.02 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 18.88 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/90535/Desktop/Arduwand Academy/UnityProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -67,47 +67,47 @@ Direct3D:
     VRAM:     7989 MB
     Driver:   32.0.15.6614
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016604 seconds.
-- Loaded All Assemblies, in  0.481 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012430 seconds.
+- Loaded All Assemblies, in  0.471 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.334 seconds
-Domain Reload Profiling: 814ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
 		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (166ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (157ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (335ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (355ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (277ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,137 +115,56 @@ Domain Reload Profiling: 814ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.876 seconds
-Refreshing native plugins compatible for Editor in 6.46 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.818 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.948 seconds
-Domain Reload Profiling: 1818ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1669ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (542ms)
-		LoadAssemblies (432ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (400ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (949ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (856ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (708ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (484ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.88 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (350.2 KB). Loaded Objects now: 4210.
-Memory consumption went from 187.6 MB to 187.2 MB.
-Total: 3.735000 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.303700 ms MarkObjects: 2.797300 ms  DeleteObjects: 0.219000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 284087.743718 seconds.
-  path: Assets/Demigiant/DOTween
-  artifactKey: Guid(93caeaa7f964f478c81ae0f9b85e8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Demigiant/DOTween using Guid(93caeaa7f964f478c81ae0f9b85e8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a14b77980b15e9c1b851f546e685382') in 0.003292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png
-  artifactKey: Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png using Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5064992ca9121680b37de7905f24fcce') in 0.071582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.063 seconds
-Refreshing native plugins compatible for Editor in 5.92 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.392 seconds
-Domain Reload Profiling: 2449ms
-	BeginReloadAssembly (347ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (567ms)
-		LoadAssemblies (745ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (54ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1393ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (645ms)
+		SetupLoadedEditorAssemblies (667ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (462ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 5.69 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.46 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3554 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (320.1 KB). Loaded Objects now: 4217.
-Memory consumption went from 154.5 MB to 154.2 MB.
-Total: 3.417300 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.274700 ms MarkObjects: 2.728200 ms  DeleteObjects: 0.107000 ms)
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (350.7 KB). Loaded Objects now: 4211.
+Memory consumption went from 187.5 MB to 187.1 MB.
+Total: 4.062100 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.377800 ms MarkObjects: 3.137200 ms  DeleteObjects: 0.200600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -261,198 +180,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.697060 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Misc/CurvySmoke.prefab
-  artifactKey: Guid(3b85a9e16cc798c4ca3ce98b38fbb8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Misc/CurvySmoke.prefab using Guid(3b85a9e16cc798c4ca3ce98b38fbb8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664aa4220cb41c7ac7dcc8cb17e0e2f2') in 1.517946 seconds
+  Time since last request: 25119.113166 seconds.
+  path: Assets/_PROJECT/Scripts/Data/Potions/Lv_3.asset
+  artifactKey: Guid(314e3e9fb1373f843a1513d78e9454ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PROJECT/Scripts/Data/Potions/Lv_3.asset using Guid(314e3e9fb1373f843a1513d78e9454ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aa76086e165044fc2f05eaeca73ae0') in 0.031702 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 5.159563 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/IceFloorTrail.prefab
-  artifactKey: Guid(88cf0884542d69c48a0f59e0f17ade92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/IceFloorTrail.prefab using Guid(88cf0884542d69c48a0f59e0f17ade92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7d426aada7d9d4284ed1c2f97917f') in 0.029793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/LightningFloorPurpleTrail.prefab
-  artifactKey: Guid(8044ac9735b9a6e4dbb4a2f0077df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/LightningFloorPurpleTrail.prefab using Guid(8044ac9735b9a6e4dbb4a2f0077df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fed66710d6c7fbd38cd502e3dc6280') in 0.040902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 25.740946 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/LightningFloorPurpleTrail.prefab
-  artifactKey: Guid(8044ac9735b9a6e4dbb4a2f0077df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Trails/LightningFloorPurpleTrail.prefab using Guid(8044ac9735b9a6e4dbb4a2f0077df40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53a93e71058c462ed526257d632a010') in 0.019546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 9.335002 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleSolo/SparkleSoloWhite.prefab
-  artifactKey: Guid(03d8a7f245be3be4e9d1d42232a11cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleSolo/SparkleSoloWhite.prefab using Guid(03d8a7f245be3be4e9d1d42232a11cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6ca091f6231db0ee7a6a27d8eef9b0') in 0.051908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.913448 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleArea/SparkleAreaWhite.prefab
-  artifactKey: Guid(00dac97cdd613fe49a4eb911783ae686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Sparkle/SparkleArea/SparkleAreaWhite.prefab using Guid(00dac97cdd613fe49a4eb911783ae686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5425ac7f3ae8227c7b7f92091e1039ac') in 0.028101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 5.823281 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Stars/StarStream.prefab
-  artifactKey: Guid(bdfc2e8cc9f84144793e5547753ada5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Stars/StarStream.prefab using Guid(bdfc2e8cc9f84144793e5547753ada5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07d804222bbeb5a943cd3e18a904bed') in 0.034234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.057181 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpRed.prefab
-  artifactKey: Guid(0b3290bbf8a12354887e608a61e4f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpRed.prefab using Guid(0b3290bbf8a12354887e608a61e4f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c08f84207287bb20e0babd83306073') in 0.028760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 20.935037 seconds.
-  path: Assets/_PROJECT/extOSC/Resources/extOSC/OSC_message_dark.png
-  artifactKey: Guid(cd8b3922d19b0485e8f38dd73e0ee2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/extOSC/Resources/extOSC/OSC_message_dark.png using Guid(cd8b3922d19b0485e8f38dd73e0ee2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c6f9c56160ba6e925523458fcc340d') in 0.023207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.054355 seconds.
-  path: Assets/_PROJECT/extOSC/Resources/extOSC/OSC_UI_rotary_filled.png
-  artifactKey: Guid(4ccd501fc31ad46a09449907afbba9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/extOSC/Resources/extOSC/OSC_UI_rotary_filled.png using Guid(4ccd501fc31ad46a09449907afbba9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bd55262208ac84419b830721e00398') in 0.028998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.081021 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/ring.png
-  artifactKey: Guid(a4280d58393322842afb10bcbcfc2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/ring.png using Guid(a4280d58393322842afb10bcbcfc2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f43164df94321608aed82154b859cb') in 0.016426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.007569 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Text/sharp_blue.png
-  artifactKey: Guid(6e9049c4381a52441905f0b6f22c50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Text/sharp_blue.png using Guid(6e9049c4381a52441905f0b6f22c50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b8f73fdd1ac9bba5284f338a014a55') in 0.018979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Emojis/sick.png
-  artifactKey: Guid(7459bff9594199d4fa805edd8690f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Emojis/sick.png using Guid(7459bff9594199d4fa805edd8690f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28296897d31f91c649449014789f6b73') in 0.020519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Text/sharp_yellow.png
-  artifactKey: Guid(cba5f2c9bebcb774c892f091de39e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Text/sharp_yellow.png using Guid(cba5f2c9bebcb774c892f091de39e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc0e6e99c4dda4a4e0f52f3d7839990') in 0.018633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011099 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/skull2.png
-  artifactKey: Guid(bd1c06c9454b93249b1bf03e39dd3587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/skull2.png using Guid(bd1c06c9454b93249b1bf03e39dd3587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803fbd27f110f8cb9ad2dcb34957ef0f') in 0.016324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.010242 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/skull_evil.png
-  artifactKey: Guid(8b30ec1b990cb3b4f961fd47cd31d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/skull_evil.png using Guid(8b30ec1b990cb3b4f961fd47cd31d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9d5f80e4910b442792fc73ec6d5954') in 0.018902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/slash_circle02.png
-  artifactKey: Guid(509425df8368aeb49ac69d0a04553f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/slash_circle02.png using Guid(509425df8368aeb49ac69d0a04553f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ec25f7e626fb70cdcdaf7f38300751') in 0.019164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.002363 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Emojis/sleep.png
-  artifactKey: Guid(90a56fbdc69e92241ae44f6e7ae3f9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/Emojis/sleep.png using Guid(90a56fbdc69e92241ae44f6e7ae3f9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dffa9a5694655d24c7fbb7542b2d650') in 0.023067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/splat02_animated_3x3.png
-  artifactKey: Guid(4e7fadba81fbb72408f12d8d10b1a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Textures/splat02_animated_3x3.png using Guid(4e7fadba81fbb72408f12d8d10b1a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc79002fd756595c4222731f880d720') in 0.022037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png
-  artifactKey: Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png using Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef89d541a4444e55f83914c4542ee0cb') in 0.014506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.381756 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png
-  artifactKey: Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png using Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dab446a89b1321d984cf3e7af4d59bf') in 0.014067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.013480 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png
-  artifactKey: Guid(7acc6bd588627b046bc1c9b3cd78a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png using Guid(7acc6bd588627b046bc1c9b3cd78a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a2d8370d6905d46e8b392829e4139') in 0.016087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.245732 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png
-  artifactKey: Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png using Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93319c92f59d2f5e02a99b8422914b0e') in 0.007391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.663661 seconds.
-  path: Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldYellow.prefab
-  artifactKey: Guid(db879c9dd49be994b9fcce9fea26448c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PROJECT/3RD PARTY/Epic Toon FX/Prefabs/Combat/Magic/Field/MagicFieldYellow.prefab using Guid(db879c9dd49be994b9fcce9fea26448c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e644cde352be96aae3be722b896cf1') in 0.021392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 19
